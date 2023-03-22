@@ -1,0 +1,22 @@
+.sahovnica {
+  overflow: hidden;
+  display: grid;
+  width: 500px;
+  height: 500px;
+  background: white;
+  padding: 1px;
+  outline: 1px solid red;
+  border-radius: 0 0 50% 50%;
+  position: relative;
+  border: 1px solid white;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+section {
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
